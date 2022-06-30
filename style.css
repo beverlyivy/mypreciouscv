@@ -1,0 +1,124 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: Georgia;
+}
+
+body {
+    font-family: Georgia;
+    background-color: black;
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+/* Headline */
+.container-satu {
+    margin: 50px auto;
+    background-color: #8c2f39;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.headlinenama {
+    margin: 20px;
+}
+
+/* Contact, Skills, Interesting */
+.container-dua {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.layanan {
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.layanan.satu { background-color: #914256;
+}
+
+.layanan.dua { background-color: #8b3c50;
+}
+
+.layanan.tiga { background-color: #7f2d41;
+}
+
+/* Education & About */
+.container-tiga {
+    height: 50px auto;
+    background-color: #8c2f39;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Closing */
+.QnA {
+    position: fixed;
+    top: 20px;
+    width: 20px;
+    padding: 10px;
+}
+
+.copyright {
+    text-align: center;
+    color: #7f2d41;
+}
+
+/* Style all font icons */
+.container-icons {
+    text-align: center;
+    justify-content: space-around;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+  
+/* Add a hover effect */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Setting the icons */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+/* Responsive */
+@media ( min-width: 600px ) {
+    .container-dua {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .layanan {
+        width: 40%;
+
+    }
+} 
